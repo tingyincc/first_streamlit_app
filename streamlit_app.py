@@ -39,3 +39,5 @@ streamlit.dataframe(my_data_rows)
 
 
 
+fruit_suggestion = streamlit.text_input('What fruit would you like to add?','jackfruit')
+streamlit.write('Thanks for adding', fruit_suggestion)
